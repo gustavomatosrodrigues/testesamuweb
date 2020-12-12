@@ -1,7 +1,7 @@
 <?php
 	function conecta(){
 		// Remoto
-		$mysql = mysql_connect("externo.logosystem.com.br","gustavo","gustavo@tcc");
+		$mysql = mysql_connect("externo.logosystem.com.br","root","logokanzeon");
 		mysql_select_db("auxilium",$mysql);
 		mysql_set_charset("utf8",$mysql);
 		// Local
