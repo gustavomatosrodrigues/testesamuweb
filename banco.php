@@ -11,7 +11,7 @@
 		// Retorna conexão
 		//return $mysql;
 
-		$link = mysqli_connect("externo.logosystem.com.br","root","logokanzeon", "auxilium");
+		$link = mysqli_connect("externo.logosystem.com.br","logosystem","logokanzeon", "auxilium");
 
 		if (!$link) {
 			echo "Error: Unable to connect to MySQL." . PHP_EOL;
